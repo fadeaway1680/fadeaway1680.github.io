@@ -3,27 +3,32 @@
 <head>
   <meta charset="utf-8">
   
-  <title>mZ1680&#39;s Blog</title>
+  <title>小前端的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
+    <meta name="keywords" content="前端,html,css,javascript,mZ1680" />
   
   
   
-  <meta property="og:type" content="website">
-<meta property="og:title" content="mZ1680&#39;s Blog">
+  
+  <meta name="description" content="业精于勤 行成于思">
+<meta property="og:type" content="website">
+<meta property="og:title" content="小前端的博客">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="mZ1680&#39;s Blog">
-<meta property="og:locale" content="default">
+<meta property="og:site_name" content="小前端的博客">
+<meta property="og:description" content="业精于勤 行成于思">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="mZ1680&#39;s Blog">
+<meta name="twitter:title" content="小前端的博客">
+<meta name="twitter:description" content="业精于勤 行成于思">
   
-    <link rel="alternate" href="/atom.xml" title="mZ1680&#39;s Blog" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="小前端的博客" type="application/atom+xml">
   
 
   
 
-  <link rel="icon" href="/css/images/mylogo.jpg">
-  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
+  <link rel="icon" href="/css/images/headpic.jpg">
+  <link rel="apple-touch-icon" href="/css/images/headpic.jpg">
   
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
@@ -54,8 +59,6 @@
   
   
   
-    <link rel="stylesheet" href="/css/vdonate.css" >
-  
 
 </head>
 
@@ -71,105 +74,7 @@
 	
 
     
-      <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(); background-size: auto 100%;">
-
-      <!-- Support rolling -->  
-        
-        <section class="awSlider">
-          <div class="carousel slide carousel-fade " data-ride="carousel">
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-               
-                  
-                    <div class="item active">
-                  
-                    <img id="carousel-img0" src="/css/images/home-bg.jpg">
-                  </div>
-
-                  <!-- 自适应大图 -->
-                  <script>
-                      var img0 = new Image();
-                      var imageTag0 = document.getElementById("carousel-img0");
-                      img0.src = imageTag0.src;
-                      img0.onload=function(){
-                        if (img0.width / img0.height <= document.body.clientWidth / document.body.clientHeight) {
-                          imageTag0.style.width = document.body.clientWidth + "px";
-                        } else {
-                          imageTag0.style.height = document.body.clientHeight + "px";
-                          imageTag0.style.marginLeft = -(document.body.clientHeight * img0.width / img0.height - document.body.clientWidth) / 2 + "px";
-                        }
-                      };
-                  </script>
-                
-                  
-                    <div class="item">
-                  
-                    <img id="carousel-img1" src="/css/images/sample.jpg">
-                  </div>
-
-                  <!-- 自适应大图 -->
-                  <script>
-                      var img1 = new Image();
-                      var imageTag1 = document.getElementById("carousel-img1");
-                      img1.src = imageTag1.src;
-                      img1.onload=function(){
-                        if (img1.width / img1.height <= document.body.clientWidth / document.body.clientHeight) {
-                          imageTag1.style.width = document.body.clientWidth + "px";
-                        } else {
-                          imageTag1.style.height = document.body.clientHeight + "px";
-                          imageTag1.style.marginLeft = -(document.body.clientHeight * img1.width / img1.height - document.body.clientWidth) / 2 + "px";
-                        }
-                      };
-                  </script>
-                
-                  
-                    <div class="item">
-                  
-                    <img id="carousel-img2" src="https://source.unsplash.com/collection/954550/1920x1080">
-                  </div>
-
-                  <!-- 自适应大图 -->
-                  <script>
-                      var img2 = new Image();
-                      var imageTag2 = document.getElementById("carousel-img2");
-                      img2.src = imageTag2.src;
-                      img2.onload=function(){
-                        if (img2.width / img2.height <= document.body.clientWidth / document.body.clientHeight) {
-                          imageTag2.style.width = document.body.clientWidth + "px";
-                        } else {
-                          imageTag2.style.height = document.body.clientHeight + "px";
-                          imageTag2.style.marginLeft = -(document.body.clientHeight * img2.width / img2.height - document.body.clientWidth) / 2 + "px";
-                        }
-                      };
-                  </script>
-                
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Geri</span>
-            </a>
-            <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">İleri</span>
-            </a>
-          </div>
-        </section>
-        <script>
-          $('section.awSlider .carousel').carousel({
-              pause: '',
-              interval: 5000
-          });
-          var startImage = $('section.awSlider .item.active > img').attr('src');
-          $('section.awSlider .carousel').on('slid.bs.carousel', function () {
-              var bscn = $(this).find('.item.active > img').attr('src');
-              $('section.awSlider > img').attr('src', bscn);
-          });
-        </script>
-      
-
+      <div id="intrologo" class="intro-logo">
     
  
 
@@ -195,17 +100,46 @@
 
       <!-- 折线Polyline背景 -->
       
+        function i(){
+            x.clearRect(0,0,w,h)
+            q=[{x:0,y:h*.7+f},{x:0,y:h*.7-f}]
+            while(q[1].x<w+f) d(q[0], q[1])
+        }
+        function d(i,j){   
+            x.beginPath()
+            x.moveTo(i.x, i.y)
+            x.lineTo(j.x, j.y)
+            var k = j.x + (z()*2-0.25)*f,
+                n = y(j.y)
+            x.lineTo(k, n)
+            x.closePath()
+            r-=u/-50
+            x.fillStyle = '#'+(v(r)*127+128<<16 | v(r+u/3)*127+128<<8 | v(r+u/3*2)*127+128).toString(16)
+            x.fill()
+            q[0] = q[1]
+            q[1] = {x:k,y:n}
+        }
+        function y(p){
+            var t = p + (z()*2-1.1)*f
+            return (t>h||t<0) ? y(p) : t
+        }
+        document.getElementById("intrologo").onclick = i
+        document.getElementById("intrologo").ontouchstart = i
+        i()
+
+      <!-- 多边形trianglify背景 -->
+      
     </script>
     
 
     
-      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
+      <div id="homelogo" class="homelogo"> 
     
 
         
-          <div class="homelogoback"  style="border: 1px solid #404040;" >
-            <h1><a href="#content" id="logo">mZ1680&#39;s Blog</a></h1>
-            <h3></h3>
+          <div class="homelogoback" >
+            <h1><a href="#content" id="logo">小前端的博客</a></h1>
+            <h3>业精于勤 行成于思</h3>
             <h5>mZ1680</h5>
             <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
           </div>
@@ -234,15 +168,15 @@
   <div class="intro-navigate">
       <p class="navigater-list">
         
-          <a id="beautifont" class="main-nav-link" href="/">Home</a>
+          <a id="beautifont" class="main-nav-link" href="/">首页</a>
         
-          <a id="beautifont" class="main-nav-link" href="/archives">Archives</a>
+          <a id="beautifont" class="main-nav-link" href="/archives">归档</a>
         
-          <a id="beautifont" class="main-nav-link" href="/categories">Categories</a>
+          <a id="beautifont" class="main-nav-link" href="/categories">分类</a>
         
-          <a id="beautifont" class="main-nav-link" href="/tags">Tags</a>
+          <a id="beautifont" class="main-nav-link" href="/tags">标签</a>
         
-          <a id="beautifont" class="main-nav-link" href="/about">About</a>
+          <a id="beautifont" class="main-nav-link" href="/about">关于</a>
         
       </p>
   </div>
@@ -320,12 +254,12 @@
   <div class="container">
       	<div class="row">
 	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
-	      <p id="copyRightEn">Copyright &copy; 2013 - 2018 mZ1680&#39;s Blog All Rights Reserved.</p>
+	      <p id="copyRightEn">Copyright &copy; 2017 - 2018 小前端的博客 All Rights Reserved.</p>
 	      
 	      
     		<p class="busuanzi_uv">
-				UV : <span id="busuanzi_value_site_uv"></span> |  
-				PV : <span id="busuanzi_value_site_pv"></span>
+				访客数 : <span id="busuanzi_value_site_uv"></span> |  
+				访问量 : <span id="busuanzi_value_site_pv"></span>
 		    </p>
   		   
 		</div>
@@ -415,11 +349,6 @@
 
 
 
-	<div style="display: none;">
-    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-  </div>
-
-
 
 	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 	</script>
@@ -471,7 +400,7 @@
         </div>
          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
           <div class="panel-body">
-            mZ1680&#39;s Blog
+            小前端的博客
           </div>
           <div class="panel-body">
             Copyright © 2018 mZ1680 All Rights Reserved.
