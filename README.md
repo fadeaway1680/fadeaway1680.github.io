@@ -1,2 +1,2 @@
-# mz1680.github.io
-mZ1680's blog
+# fadeaway1680.github.io
+fadeaway1680's blog
