@@ -49,11 +49,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build with Next.js
-        run: pnpm next build
+        run: pnpm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./next
 
   deploy:
     environment:
